@@ -1,0 +1,323 @@
+body {
+    font-family: sans-serif;
+    background-image:linear-gradient(to left, #6b4607, #d28d68, #563b21) ;
+    color: teal;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.img1{
+    width: 100%;
+    
+}
+h1 {
+    opacity: 0.4;
+    color: rgb(240, 132, 0);
+    font-family:'roboto';
+    text-align: center;
+    margin-top: -130px;
+    font-size: 70px;
+    transition: 1s;
+}
+.store {
+    width: 100%;
+    height: 380px; 
+}
+.bendy {
+    width: 100%;
+     height: 550px; 
+    
+}
+h2 {
+    color: #ffffff;
+    font-family:'roboto';
+    font-size: 70px;
+}
+.one_text:hover{
+   box-shadow: 3px 3px red, -1em 0 .4em olive;
+}
+
+.one_text{
+    text-align: center;
+    margin-top: -330px;
+    padding: 0px 80px;
+
+}
+.one{
+    /* width: 100%; */
+color: rgb(255, 255, 255);
+    font-family:'roboto';
+    text-align: center;
+    font-size: 20px;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-family:'roboto';
+    text-align: center;
+    font-size: 70px;
+}
+.two_text{
+    margin-top: -950px;
+}
+.two{
+    /* width: 600px; */
+ color: rgb(255, 255, 255);
+    font-family:'roboto';
+    font-size: 25px; 
+   
+}
+a {
+    position: absolute;
+    left: -80px;
+    transition: 0.12s;
+    padding:20px ;
+    width: 100px;
+    text-decoration:none ;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0 ;
+    opacity: 0.4;
+}
+a:hover{
+    transition:1s ;
+    opacity: 1;
+    left: 0;
+}
+.Shop {
+    position: fixed;
+    top: 20px;
+    background-color: #9c7e13;
+}
+.trailser {
+    position: fixed;
+    top: 140px;
+    background-color: #3d2506;
+}
+.fandom {
+    color: black;
+    position: fixed;
+    top: 80px;
+    background-color: yellow;
+}
+.discord {
+    position: fixed;
+    top: 200px;
+    background-color: rgb(100, 87, 53);
+}
+.game {
+    position: fixed;
+    top: 260px;
+    background-color: rgb(171, 76, 38);
+}
+.Shop:hover {
+    padding: 30px;
+    position: fixed;
+    top: 20px;
+    background-color: #9c7e13;
+}
+.trailser:hover {
+    padding: 30px;
+    position: fixed;
+    top: 140px;
+    background-color: #3d2506;
+}
+.fandom:hover {
+    padding: 30px;
+    color: black;
+    position: fixed;
+    top: 80px;
+    background-color: yellow;
+}
+.discord:hover {
+    padding: 30px;
+    position: fixed;
+    top: 200px;
+    background-color: rgb(100, 87, 53);
+}
+.game:hover {
+    padding: 30px;
+    position: fixed;
+    top: 260px;
+    background-color: rgb(171, 76, 38);
+}
+
+.three{
+color: rgb(184, 184, 184);
+    font-family:'roboto';
+    position: absolute;
+    top: 840px;
+    left: 15% ;
+    right: 10px;
+    bottom: 500px;
+    font-size: 30px;
+}
+.four{
+color: rgb(184, 184, 184);
+    font-family:'roboto';
+    position: absolute;
+    top: 3030px;
+    left: 350px ;
+    right: 10px;
+    bottom: 500px;
+    font-size: 30px;
+}
+.five{
+color: rgb(184, 184, 184);
+    font-family:'roboto';
+    position: absolute;
+    top: 2630px;
+    left: 200px ;
+    font-size: 30px;
+    padding-left:700px ;
+}
+.six{
+color: rgb(184, 184, 184);
+    font-family:'roboto';
+    position: absolute;
+    top: 2930px;
+    left: 200px ;
+    font-size: 30px;
+    padding-left:700px ;
+}
+.seven{
+color: rgb(184, 184, 184);
+    font-family:'roboto';
+    position: absolute;
+    top: 2830px;
+    left: 200px ;
+    font-size: 30px;
+    padding-left:1100px ;
+}
+.list{
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    color: rgb(255, 255, 255);
+    font-family:'roboto';
+    font-size: 20px;
+}
+footer{
+    width: 100%;
+}
+.true{
+    color: rgb(184, 136, 25);
+    text-align: center;
+    margin-top: 50px;
+    /* position: absolute; */
+    /* top: 2230px; */
+    font-size: 20px;
+    padding-left:500px ;
+}
+.foot {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+}
+
+.foot img {
+    margin-left: 100px;
+    opacity: 0.4;
+    width: 500px;
+    height: 350px;
+    box-shadow: black -30px -45px 0.2;
+}
+
+.foot img:hover {
+     margin-left: 200px; 
+    padding:20px 20px 20px 20px;
+    opacity: 1;
+    border: 6px solid rgb(167, 167, 196);
+    width: 530px;
+    height: 375px;
+    transition: 0.5s ease-out;
+}
+h1:hover {
+   opacity: 1;
+   color: rgb(172, 106, 26);
+    font-family:'roboto';
+    font-size: 80px;
+    transition: 2s ease-out;
+}
+.ava_one {
+    top: 40px;
+    right: -30px;
+    width: 46px;
+    height: 46px;
+    position: relative;
+    z-index: 2;
+}
+.ava_two {
+    top: 30px;
+    right: -20px;
+    width: 46px;
+    height: 46px;
+    position: relative;
+    z-index: 2;
+}
+.text_msr {
+    background-color: peru;
+    margin-top: 39px;
+    color: khaki;
+    font-size: 20px;
+    padding: 20px;
+    border: burlywood double 20px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.msr {
+    position: absolute;
+    top:1px; 
+    margin-top: 30px;
+    background-color: peru;
+    color: khaki;
+    font-size: 20px;
+    padding: 20px 20px 20px 70px;
+    border: burlywood double 10px;
+    border-radius: 10px;
+    z-index: 0;
+}
+.chiter {
+    position: absolute;
+    top:210px; 
+    margin-top: 30px;
+    background-color: peru;
+    color: khaki;
+    font-size: 20px;
+    padding: 20px 20px 20px 70px;
+    border: burlywood double 10px;
+    border-radius: 10px;
+    z-index: 0;
+}
+.text_chiter {
+    background-color: peru;
+    margin-top: 39px;
+    color: khaki;
+    font-size: 20px;
+    padding: 20px;
+    border: burlywood double 20px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.ft{
+    
+    padding: 30px;
+    /* © 2017-2024 Joey Drew Studios Inc. Bendy®, Bendy and the Ink Machine®, Boris and the Dark Survival™, Bendy and the Dark Revival®, персонажі, зображення та логотипи The Bendy є товарними знаками Joey Drew Studios Inc. Усі права Зарезервований. */
+
+
+
+font-family: 'Jacques Francois';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+/* line-height: 46px; */
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.fixed {
+    font-family:'Times New Roman', Times, serif ;
+}
